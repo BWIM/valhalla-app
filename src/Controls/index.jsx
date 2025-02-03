@@ -56,7 +56,7 @@ class MainControl extends React.Component {
     this.getLastUpdate()
 
     toast.success(
-      'Welcome to Valhalla! Global Routing Service - funded by FOSSGIS e.V.',
+      'Welcome to Valhalla! Funded by FossGis e.V., enhanced by BWIM to fit cargo bikes.',
       {
         position: 'bottom-center',
         autoClose: 5000,

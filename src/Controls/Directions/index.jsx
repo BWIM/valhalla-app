@@ -96,22 +96,22 @@ class DirectionsControl extends React.Component {
                 group={'directions'}
                 profiles={[
                   'bicycle',
-                  'pedestrian',
-                  'car',
-                  'truck',
-                  'bus',
-                  'motor_scooter',
-                  'motorcycle',
+                  // 'pedestrian',
+                  // 'car',
+                  // 'truck',
+                  // 'bus',
+                  // 'motor_scooter',
+                  // 'motorcycle',
                 ]}
                 loading={loading}
                 popupContent={[
-                  'Bicycle',
-                  'Pedestrian',
-                  'Car',
-                  'Truck',
-                  'Bus',
-                  'Motor Scooter',
-                  'Motorcycle',
+                  'Cargo bike',
+                  // 'Pedestrian',
+                  // 'Car',
+                  // 'Truck',
+                  // 'Bus',
+                  // 'Motor Scooter',
+                  // 'Motorcycle',
                 ]}
                 activeProfile={profile}
                 handleUpdateProfile={this.handleUpdateProfile}

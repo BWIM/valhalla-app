@@ -6,14 +6,14 @@ import { ReactComponent as BusSvg } from 'images/bus.svg'
 import { ReactComponent as ScooterSvg } from 'images/scooter.svg'
 import { ReactComponent as CarSvg } from 'images/car.svg'
 import { ReactComponent as TruckSvg } from 'images/truck.svg'
-import { ReactComponent as BikeSvg } from 'images/bike.svg'
 import { ReactComponent as PedestrianSvg } from 'images/pedestrian.svg'
 import { ReactComponent as MotorbikeSvg } from 'images/motorbike.svg'
+import { ReactComponent as CargoBikeSvg } from 'images/cargobike.svg'
 
 const iconMap = {
   truck: <TruckSvg />,
   car: <CarSvg />,
-  bicycle: <BikeSvg />,
+  bicycle: <CargoBikeSvg width="24" height="24" />,
   pedestrian: <PedestrianSvg />,
   motor_scooter: <ScooterSvg />,
   bus: <BusSvg />,

@@ -14,7 +14,7 @@ export const SettingsFooter = () => {
         </a>{' '}
         • Visualized with{' '}
         <a
-          href="https://github.com/gis-ops/valhalla-app/"
+          href="https://github.com/BWIM/valhalla-app"
           target="_blank"
           rel="noopener noreferrer"
         >

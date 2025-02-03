@@ -712,7 +712,7 @@ export const generalize = {
 }
 
 export const settingsInit = {
-  maneuver_penalty: 5,
+  maneuver_penalty: 10,
   country_crossing_penalty: 0,
   country_crossing_cost: 600,
   length: 21.5,
@@ -738,10 +738,10 @@ export const settingsInit = {
   shortest: false,
   exclude_cash_only_tolls: false,
   bicycle_type: 'Hybrid',
-  cycling_speed: 20,
-  use_roads: 0.5,
-  use_hills: 0.5,
-  avoid_bad_surfaces: 0.25,
+  cycling_speed: 17,
+  use_roads: 0.8,
+  use_hills: 0.1,
+  avoid_bad_surfaces: 0.8,
   top_speed: 140,
   use_primary: 0.5,
   walking_speed: 5.1,
@@ -759,7 +759,7 @@ export const settingsInit = {
   toll_booth_penalty: 0,
   toll_booth_cost: 15,
   gate_penalty: 300,
-  gate_cost: 30,
+  gate_cost: 60,
   include_hov2: false,
   include_hov3: false,
   include_hot: false,
